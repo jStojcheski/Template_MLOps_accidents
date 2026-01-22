@@ -63,7 +63,7 @@ def process_data(
     df = merge_datasets(df_users, df_veh, df_places, df_caract)
 
     # Add new columns
-    # df = add_new_columns(df, nb_victim, nb_vehicules)
+    df = add_new_columns(df, nb_victim, nb_vehicules)
 
     # # Modify target variable
     # df = modif_target_variable(df)
