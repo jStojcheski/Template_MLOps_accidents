@@ -72,7 +72,7 @@ def process_data(
     df = replace_values(df)
 
     # # Drop columns
-    # df = drop_columns(df)
+    df = drop_columns(df)
 
     # # Drop lines with NaN values
     # df = drop_lines_with_nan_values(df)
